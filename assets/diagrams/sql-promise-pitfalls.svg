@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">Text-to-SQL: the practical route from a question to useful SQL</title>
+  <desc id="desc">A route connects a natural-language question to useful SQL as a goal. Three callouts identify practical limitations discussed in the paper: scalability with large schemas, response latency, and hallucinations such as invented fields. These are conceptual challenges, not measured results or a claim that the paper solves them. The paper also discusses benchmark representativeness and knowledge acquisition, which are omitted from this compact diagram. Source: https://ceur-ws.org/Vol-3741/paper65.pdf.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+    <marker id="route-arrow" viewBox="0 0 22 22" refX="18" refY="11" markerWidth="24" markerHeight="24" markerUnits="userSpaceOnUse" orient="auto"><path d="M3 3 19 11 3 19" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+  </defs>
+  <rect width="900" height="600" fill="#f7e5db" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="48" y="80" font-size="54" letter-spacing="-1.6" fill="#27324b">A question is only the start</text>
+    <text x="48" y="128" font-size="32" fill="#27324b">Practical limits along the path to SQL</text>
+  </g>
+  <rect x="58" y="174" width="272" height="103" rx="24" fill="none" stroke="none" />
+  <rect x="48" y="164" width="272" height="103" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="72" y="229" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="46" letter-spacing="-1">Question</text>
+  <path d="M184 282V331H773V382" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" />
+  <path d="M184 282V331H773V382" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#route-arrow)" />
+  <rect x="366" y="160" width="486" height="112" rx="24" fill="#dfd9ed" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="390" y="209" font-size="42" letter-spacing="-0.5" fill="#27324b">Scalability</text>
+    <text x="390" y="251" font-size="32" fill="#27324b">Large schemas</text>
+  </g>
+  <path d="M526 284V309M182 386V354M510 386V354" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <path d="M526 284V309M182 386V354" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="48" y="397" width="268" height="137" rx="24" fill="#d0d9e9" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="72" y="451" font-size="44" letter-spacing="-1" fill="#27324b">Latency</text>
+    <text x="72" y="498" font-size="32" letter-spacing="-0.5" fill="#27324b">Waiting time</text>
+  </g>
+  <rect x="348" y="397" width="323" height="137" rx="24" fill="#dfd9ed" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="372" y="451" font-size="37" letter-spacing="-1" fill="#27324b">Hallucinations</text>
+    <text x="372" y="498" font-size="32" letter-spacing="-0.6" fill="#27324b">Invented fields</text>
+  </g>
+  <rect x="704" y="409" width="148" height="147" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="726" y="450" font-size="32" fill="#27324b">Goal:</text>
+    <text x="726" y="493" font-size="36" letter-spacing="-1" fill="#27324b">useful</text>
+    <text x="726" y="538" font-size="42" fill="#27324b">SQL</text>
+  </g>
+</svg>

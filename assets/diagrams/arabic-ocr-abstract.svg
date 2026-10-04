@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="400" fill="#27324b">
+  <title id="title">A preliminary Arabic title-page dataset plan</title>
+  <desc id="desc">Arabic pages undergo classification to identify frontispieces. A dashed proposed region then connects OCR, expert correction, and metadata. The IRCDL extended abstract describes a preliminary dataset plan; the dashed future stages are not presented as a completed dataset or workflow.</desc>
+  <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker></defs>
+  <rect width="900" height="600" fill="#f7efd8" />
+  <text x="44" y="72" font-size="54" fill="#27324b">Planning an OCR dataset</text>
+  <text x="44" y="116" font-size="32" fill="#27324b">IRCDL · preliminary study</text>
+  <rect x="44" y="184" width="256" height="266" rx="24" fill="#cdc5e3" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="68" y="249" fill="#27324b">Arabic</text>
+  <text x="68" y="304" fill="#27324b">pages</text>
+  <rect x="69" y="337" width="206" height="80" fill="none" stroke="#95a5bf" stroke-width="1.8" />
+  <path d="M92 359H252M115 381H229M103 402H240" fill="none" stroke="#27324b" stroke-width="3.2" />
+  <path d="M313 220H369" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="384" y="157" width="472" height="86" rx="24" fill="#fbf5e8" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="620" y="214" text-anchor="middle" fill="#27324b">Page classification</text>
+  <rect x="384" y="260" width="472" height="300" rx="12" fill="none" stroke="#95a5bf" stroke-width="1.8" stroke-dasharray="10 9" />
+  <text x="405" y="292" font-size="32" fill="#27324b">Proposed</text>
+  <path d="M620 249V298" fill="none" stroke="#27324b" stroke-width="3.2" stroke-dasharray="8 7" marker-end="url(#arrow)" />
+  <rect x="404" y="310" width="432" height="58" rx="24" fill="#d4e8df" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="620" y="352" text-anchor="middle" fill="#27324b">OCR</text>
+  <path d="M620 375V391" fill="none" stroke="#27324b" stroke-width="3.2" stroke-dasharray="8 7" marker-end="url(#arrow)" />
+  <rect x="404" y="402" width="432" height="58" rx="24" fill="#dfd9ed" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="620" y="444" text-anchor="middle" fill="#27324b">Expert correction</text>
+  <path d="M620 467V483" fill="none" stroke="#27324b" stroke-width="3.2" stroke-dasharray="8 7" marker-end="url(#arrow)" />
+  <rect x="404" y="494" width="432" height="58" rx="24" fill="#d4e8df" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="620" y="536" text-anchor="middle" fill="#27324b">Metadata</text>
+</svg>

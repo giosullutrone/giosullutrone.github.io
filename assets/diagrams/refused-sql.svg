@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">Text-to-Refused-SQL: legitimate queries meet sensitive schemas</title>
+  <desc id="desc">A legitimate healthcare database query, a schema with personal and sensitive fields, and prompt and permission context feed a language model. Its response may be SQL or refusal. The study examines how model behavior varies with these inputs; permission context does not guarantee the absence of refusal. Source: https://ceur-ws.org/Vol-4182/paper32.pdf.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+  </defs>
+  <rect width="900" height="600" fill="#f5e4ea" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="48" y="78" font-size="54" letter-spacing="-1.5" fill="#27324b">A valid query can be refused</text>
+    <text x="48" y="126" font-size="32" fill="#27324b">Prompt and permission context affect refusal</text>
+  </g>
+  <rect x="48" y="171" width="330" height="195" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="72" y="219" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="38" letter-spacing="-0.8">Healthcare DB</text>
+  <path d="M70 238H356" fill="none" stroke="#27324b" stroke-width="2.4" />
+  <rect x="72" y="253" width="36" height="36" rx="5" fill="#e8d1c4" stroke="#95a5bf" stroke-width="1.8" />
+  <rect x="72" y="305" width="36" height="36" rx="5" fill="#e8d1c4" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="32">
+    <text x="122" y="282" fill="#27324b">Personal fields</text>
+    <text x="122" y="334" fill="#27324b">Sensitive fields</text>
+  </g>
+  <rect x="48" y="414" width="330" height="132" rx="24" fill="#d0d9e9" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="72" y="462" font-size="40" fill="#27324b">Prompt +</text>
+    <text x="72" y="510" font-size="32" letter-spacing="-0.8" fill="#27324b">permission context</text>
+  </g>
+  <rect x="429" y="171" width="423" height="84" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="453" y="224" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="40" letter-spacing="-0.6">Legitimate query</text>
+  <path d="M513 267V282M390 282 442 321M390 456 451 390" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <path d="M513 267V282M390 282 442 321" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <path d="M589 354H618V313H648M618 354V427H648" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#arrow)" />
+  <path d="M589 354H618V313H648" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" marker-end="url(#arrow)" />
+  <circle cx="513" cy="354" r="65" fill="#d0d9e9" />
+  <text x="513" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="50" letter-spacing="-1">LLM</text>
+  <rect x="666" y="277" width="186" height="76" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="759" y="329" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="48">SQL</text>
+  <rect x="666" y="389" width="186" height="76" rx="24" fill="#e8d1c4" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="759" y="438" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="40" letter-spacing="-1">Refusal</text>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="429" y="516" font-size="36" letter-spacing="-0.5" fill="#27324b">Refusal varies.</text>
+    <text x="429" y="556" font-size="32" letter-spacing="-0.8" fill="#27324b">Permissions ≠ a guarantee</text>
+  </g>
+</svg>

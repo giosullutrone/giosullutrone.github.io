@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">Digital Humanities: proposed language-model research directions for historical documents</title>
+  <desc id="desc">The 2024 doctoral proposal explores language models for multilingual historical documents. Dashed branches lead to Text-to-SQL, topic modelling, and knowledge graphs, with transparent document access as a research goal. The branches are prospective directions, not completed systems, measured improvements, or a required execution pipeline.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#f4e3e9" />
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="400" fill="#27324b">
+    <text x="48" y="83" font-size="56" fill="#27324b">Research directions</text>
+    <text x="48" y="133" font-size="32" fill="#27324b">Proposed in a doctoral research plan</text>
+
+    <rect x="48" y="216" width="263" height="170" rx="24" fill="#d4e8df" />
+    <text x="72" y="263" font-size="40" fill="#27324b">Historical</text>
+    <text x="72" y="311" font-size="36" fill="#27324b">multilingual</text>
+    <text x="72" y="361" font-size="40" fill="#27324b">documents</text>
+    <path d="M 311 301 H 353" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linecap="round" marker-end="url(#arrow)" />
+
+    <rect x="366" y="233" width="143" height="138" rx="24" fill="#b9c9e2" />
+    <text x="437.5" y="320" text-anchor="middle" fill="#27324b" font-size="48">LLMs</text>
+
+    <g fill="none" stroke="#27324b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 9">
+      <path d="M 509 302 H 555 V 216 H 587" marker-end="url(#arrow)" />
+      <path d="M 509 302 H 587" marker-end="url(#arrow)" />
+      <path d="M 509 302 H 555 V 417 H 587" marker-end="url(#arrow)" />
+    </g>
+    <rect x="600" y="170" width="252" height="91" rx="24" fill="#d4e8df" />
+    <text x="726" y="231" text-anchor="middle" font-size="40" fill="#27324b">Text-to-SQL</text>
+    <rect x="600" y="284" width="252" height="91" rx="24" fill="#d4e8df" />
+    <text x="726" y="325" text-anchor="middle" font-size="36" fill="#27324b">Topic</text>
+    <text x="726" y="364" text-anchor="middle" font-size="36" fill="#27324b">modelling</text>
+    <rect x="600" y="396" width="252" height="103" rx="24" fill="#d4e8df" />
+    <text x="726" y="440" text-anchor="middle" font-size="40" fill="#27324b">Knowledge</text>
+    <text x="726" y="486" text-anchor="middle" font-size="40" fill="#27324b">graphs</text>
+
+    <text x="48" y="558" font-size="36" fill="#27324b">Goal: transparent document access</text>
+  </g>
+</svg>

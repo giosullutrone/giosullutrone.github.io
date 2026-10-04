@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="400" fill="#27324b">
+  <title id="title">DM-LP page classes and catalogue data</title>
+  <desc id="desc">Frontispieces, indexes, and ISBN pages feed structured text extraction, which supports bibliographic metadata. The page shapes contain only empty cells and nonlinguistic strokes. Dataset access is by research request; this diagram does not claim unrestricted open access.</desc>
+  <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker></defs>
+  <rect width="900" height="600" fill="#dfeef1" />
+  <text x="36" y="72" font-size="52" fill="#27324b">Pages become catalogue data</text>
+  <text x="36" y="116" font-size="32" fill="#27324b">DM-LP · access by research request</text>
+  <rect x="36" y="160" width="265" height="188" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="168" y="214" text-anchor="middle" fill="#27324b">Frontispieces</text>
+  <rect x="76" y="239" width="185" height="80" fill="#e8d1c4" stroke="#95a5bf" stroke-width="1.8" rx="24" />
+  <path d="M108 261H229M128 280H209M112 299H225" fill="none" stroke="#27324b" stroke-width="3.2" />
+  <rect x="318" y="160" width="265" height="188" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="450" y="214" text-anchor="middle" fill="#27324b">Indexes</text>
+  <path d="M353 241H548M353 266H548M353 291H548M496 237V306" fill="none" stroke="#27324b" stroke-width="3.2" />
+  <rect x="600" y="160" width="265" height="188" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="732" y="214" text-anchor="middle" fill="#27324b">ISBN pages</text>
+  <rect x="634" y="241" width="196" height="70" fill="none" stroke="#95a5bf" stroke-width="1.8" />
+  <path d="M634 276H830M699 241V311M764 241V311" fill="none" stroke="#27324b" stroke-width="2.4" />
+  <path d="M168 358V389H450M450 358V389M732 358V389H450M450 389H200V416" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" />
+  <path d="M200 399V416" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="60" y="430" width="280" height="126" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="200" y="480" text-anchor="middle" fill="#27324b">Structured</text>
+  <text x="200" y="529" text-anchor="middle" fill="#27324b">text</text>
+  <path d="M355 493H529" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="544" y="430" width="306" height="126" rx="24" fill="#e8d1c4" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="697" y="480" text-anchor="middle" fill="#27324b">Bibliographic</text>
+  <text x="697" y="529" text-anchor="middle" fill="#27324b">metadata</text>
+</svg>

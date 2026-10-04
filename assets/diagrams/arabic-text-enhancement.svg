@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="400" fill="#27324b">
+  <title id="title">GPT post-processing leaves Arabic OCR errors</title>
+  <desc id="desc">OCR text with recognition errors feeds an attempted correction with GPT-4 or GPT-4 Turbo. Errors remain in the output: the study finds the models unreliable for this correction task. The labeled blocks are a conceptual schematic, not fabricated model responses or a numerical comparison.</desc>
+  <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker></defs>
+  <rect width="900" height="600" fill="#f6e4dd" />
+  <text x="44" y="72" font-size="54" fill="#27324b">Can GPT repair OCR errors?</text>
+  <text x="44" y="116" font-size="32" fill="#27324b">Arabic OCR post-processing</text>
+  <rect x="44" y="177" width="260" height="263" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="174" y="238" text-anchor="middle" font-size="44" fill="#27324b">OCR text</text>
+  <path d="M64 263H284" fill="none" stroke="#27324b" stroke-width="2.4" />
+  <text x="174" y="319" text-anchor="middle" fill="#27324b">Recognition</text>
+  <text x="174" y="370" text-anchor="middle" fill="#27324b">errors</text>
+  <path d="M312 309H334" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="345" y="200" width="210" height="206" rx="24" fill="#dfd9ed" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="450" y="246" text-anchor="middle" font-size="32" fill="#27324b">Correction</text>
+  <text x="450" y="282" text-anchor="middle" font-size="32" fill="#27324b">attempt</text>
+  <text x="450" y="335" text-anchor="middle" fill="#27324b">GPT-4</text>
+  <text x="450" y="379" text-anchor="middle" font-size="32" fill="#27324b">GPT-4 Turbo</text>
+  <path d="M564 309H585" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="596" y="177" width="260" height="263" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="726" y="238" text-anchor="middle" font-size="44" fill="#27324b">Output</text>
+  <path d="M616 263H836" fill="none" stroke="#27324b" stroke-width="2.4" />
+  <text x="726" y="319" text-anchor="middle" fill="#27324b">Errors</text>
+  <text x="726" y="370" text-anchor="middle" fill="#27324b">remain</text>
+  <rect x="44" y="486" width="812" height="74" rx="24" fill="#d0d9e9" />
+  <text x="450" y="536" text-anchor="middle" font-size="42" fill="#27324b">Correction remains unreliable</text>
+</svg>

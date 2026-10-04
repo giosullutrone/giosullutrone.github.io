@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">Text-to-SQL challenges: several dimensions to examine</title>
+  <desc id="desc">Four connected cards surround Text-to-SQL: accuracy of queries, user interaction through conversation, trustworthiness including safety and security, and economics including cost and openness. The paper examines these dimensions and their research challenges; the diagram does not claim that they are solved or assign them measured values. Source: https://data.scitevents.org/Abstract.aspx?idEvent=pUOomaLGDs4%3D.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="14" markerHeight="14" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+  </defs>
+  <rect width="900" height="600" fill="#f7efcf" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="48" y="80" font-size="56" letter-spacing="-1.8" fill="#27324b">Beyond query accuracy</text>
+    <text x="48" y="129" font-size="34" letter-spacing="-0.5" fill="#27324b">Dimensions to examine in Text-to-SQL</text>
+  </g>
+  <path d="M399 330 360 308M501 330 540 308M399 406 360 428M501 406 540 428" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <path d="M399 330 360 308M501 330 540 308M399 406 360 428" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="57" y="178" width="357" height="130" rx="24" fill="none" stroke="none" />
+  <rect x="48" y="169" width="357" height="130" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <rect x="504" y="178" width="357" height="130" rx="24" fill="none" stroke="none" />
+  <rect x="495" y="169" width="357" height="130" rx="24" fill="#b9c9e2" stroke="#95a5bf" stroke-width="1.8" />
+  <rect x="48" y="437" width="357" height="125" rx="24" fill="#d0d9e9" stroke="#95a5bf" stroke-width="1.8" />
+  <rect x="504" y="446" width="357" height="125" rx="24" fill="none" stroke="none" />
+  <rect x="495" y="437" width="357" height="125" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="72" y="223" font-size="44" letter-spacing="-1" fill="#27324b">Accuracy</text>
+    <text x="72" y="266" font-size="32" fill="#27324b">Correct queries</text>
+    <text x="519" y="490" font-size="44" letter-spacing="-1" fill="#27324b">Economics</text>
+    <text x="519" y="533" font-size="32" letter-spacing="-0.5" fill="#27324b">Cost + openness</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="519" y="223" font-size="40" letter-spacing="-1" fill="#27324b">User interaction</text>
+    <text x="519" y="266" font-size="32" fill="#27324b">Conversation</text>
+    <text x="72" y="490" font-size="39" letter-spacing="-1" fill="#27324b">Trustworthiness</text>
+    <text x="72" y="533" font-size="32" letter-spacing="-0.5" fill="#27324b">Safety + security</text>
+  </g>
+  <rect x="299" y="330" width="302" height="76" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="450" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="42" letter-spacing="-1">Text → SQL</text>
+</svg>

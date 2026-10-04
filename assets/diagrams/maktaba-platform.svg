@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="title desc" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="400" fill="#27324b">
+  <title id="title">Human-supported cataloguing in Digital Maktaba</title>
+  <desc id="desc">Arabic documents and extraction tools support bibliographic records. Specialists participate in cataloguing, and the resulting records support search. The two-way specialist connection emphasizes the platform's semi-automatic purpose rather than fully automatic cataloguing.</desc>
+  <defs><marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker></defs>
+  <rect width="900" height="600" fill="#e0efe9" />
+  <text x="44" y="72" font-size="52" fill="#27324b">Human-supported cataloguing</text>
+  <text x="44" y="116" font-size="32" fill="#27324b">Digital Maktaba · semi-automatic</text>
+  <rect x="340" y="150" width="310" height="84" rx="24" fill="#b9c9e2" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="495" y="203" text-anchor="middle" font-size="32" fill="#27324b">OCR · LLMs · VLMs</text>
+  <path d="M495 244V263" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="44" y="275" width="232" height="150" rx="24" fill="#b9c9e2" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="66" y="331" fill="#27324b">Arabic</text>
+  <text x="66" y="382" fill="#27324b">documents</text>
+  <path d="M289 350H327" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="340" y="275" width="310" height="150" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="495" y="329" text-anchor="middle" fill="#27324b">Bibliographic</text>
+  <text x="495" y="381" text-anchor="middle" fill="#27324b">record</text>
+  <path d="M663 350H680" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="694" y="300" width="162" height="125" rx="24" fill="#eee7c9" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="775" y="375" text-anchor="middle" fill="#27324b">Search</text>
+  <path d="M414 487V438" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <path d="M578 438V487" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="340" y="500" width="310" height="60" rx="24" fill="#eee7c9" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="495" y="543" text-anchor="middle" fill="#27324b">Specialist</text>
+</svg>

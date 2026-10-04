@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">Sensitive retrieval: relevant passages can rank below the returned set</title>
+  <desc id="desc">A question enters embedding retrieval. An unnumbered ranked list has an upper group of returned passages. A highlighted relevant, historically sensitive passage sits lower, outside that group. This schematic illustrates how lower ranking can hide relevant material at a retrieval cutoff; it gives no measured ranks, scores, or universal failure claim.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#e0ebf8" />
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="400" fill="#27324b">
+    <text x="48" y="83" font-size="56" fill="#27324b">Sensitive retrieval</text>
+    <text x="48" y="133" font-size="32" fill="#27324b">Relevant passages can rank lower</text>
+
+    <rect x="48" y="236" width="260" height="104" rx="24" fill="#eee7c9" />
+    <text x="178" y="303" text-anchor="middle" font-size="40" fill="#27324b">Question</text>
+    <path d="M 308 288 H 367" fill="none" stroke="#27324b" stroke-width="3.2" stroke-linecap="round" marker-end="url(#arrow)" />
+    <text x="48" y="394" font-size="32" fill="#27324b">Embedding</text>
+    <text x="48" y="434" font-size="32" fill="#27324b">ranking</text>
+
+    <rect x="385" y="178" width="467" height="211" rx="24" fill="#eee7c9" stroke="#95a5bf" stroke-width="1.8" />
+    <text x="413" y="221" font-size="32" fill="#27324b">Returned set</text>
+    <rect x="413" y="242" width="411" height="54" rx="10" fill="#fcfdff" />
+    <text x="618.5" y="280" text-anchor="middle" font-size="32" fill="#27324b">Passage</text>
+    <rect x="413" y="312" width="411" height="54" rx="10" fill="#fcfdff" />
+    <text x="618.5" y="350" text-anchor="middle" font-size="32" fill="#27324b">Passage</text>
+
+    <path d="M 385 416 H 852" fill="none" stroke="#27324b" stroke-width="2.4" stroke-dasharray="9 9" />
+    <rect x="413" y="443" width="411" height="107" rx="24" fill="#eedbe4" stroke="#95a5bf" stroke-width="1.8" />
+    <text x="438" y="485" font-size="32" fill="#27324b">Relevant · sensitive</text>
+    <text x="438" y="527" font-size="36" fill="#27324b">Lower-ranked</text>
+
+    <text x="48" y="508" font-size="32" fill="#27324b">Can fall outside</text>
+    <text x="48" y="548" font-size="32" fill="#27324b">the returned set</text>
+  </g>
+</svg>

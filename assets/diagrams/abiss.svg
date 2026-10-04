@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">ABISS: evaluating dialogue before SQL</title>
+  <desc id="desc">An ambiguous or unanswerable database question reaches an agent. The agent may ask for clarification and use a clarified question to try to write SQL. If answering is impossible, it should explain why. ABISS evaluates these interactions; the arrows show task paths rather than guaranteed successful outcomes. Source: https://arxiv.org/abs/2607.23340.</desc>
+  
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+    <marker id="light-arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="16" markerHeight="16" markerUnits="userSpaceOnUse" orient="auto"><path d="M1 1 11 6 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linejoin="round" /></marker>
+  </defs>
+  <rect width="900" height="600" fill="#e2eaf7" />
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="400" fill="#27324b">
+    <text x="48" y="76" font-size="54" letter-spacing="-1.6" fill="#27324b">ABISS: evaluate the dialogue</text>
+    <text x="48" y="124" font-size="32" fill="#27324b">Before an agent writes SQL</text>
+  </g>
+  <path d="M341 224H405" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#light-arrow)" />
+  <path d="M636 298V328" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#light-arrow)" />
+  <path d="M186 364V454" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#light-arrow)" />
+  <rect x="58" y="160" width="276" height="198" rx="24" fill="none" stroke="none" />
+  <rect x="48" y="150" width="276" height="198" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <path d="M72 226H300" stroke="#27324b" stroke-width="2.4" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="72" y="204" font-size="44" letter-spacing="-1" fill="#27324b">Question</text>
+    <text x="72" y="274" font-size="36" letter-spacing="-0.8" fill="#27324b">Ambiguous or</text>
+    <text x="72" y="321" font-size="36" letter-spacing="-0.8" fill="#27324b">unanswerable</text>
+  </g>
+  <path d="M448 150H824Q852 150 852 178V254Q852 282 824 282H489L445 311V282H448Q420 282 420 254V178Q420 150 448 150Z" fill="#eee7c9" stroke="#27324b" stroke-width="3.2" stroke-linejoin="round" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="448" y="201" font-size="40" fill="#27324b">May ask for</text>
+    <text x="448" y="251" font-size="44" letter-spacing="-1" fill="#27324b">clarification</text>
+  </g>
+  <rect x="430" y="350" width="432" height="120" rx="24" fill="none" stroke="none" />
+  <rect x="420" y="340" width="432" height="120" rx="24" fill="#d4e8df" stroke="#95a5bf" stroke-width="1.8" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400">
+    <text x="448" y="385" font-size="36" letter-spacing="-0.6" fill="#27324b">Clarified question</text>
+    <text x="496" y="438" font-size="44" letter-spacing="-0.6" fill="#27324b">Write SQL</text>
+  </g>
+  <path d="M448 424H478" fill="none" stroke="#27324b" stroke-width="3.2" marker-end="url(#arrow)" />
+  <rect x="48" y="480" width="804" height="80" rx="24" fill="#ffffff" stroke="#95a5bf" stroke-width="1.8" />
+  <text x="74" y="531" font-family="Arial, Helvetica, sans-serif" fill="#27324b" font-weight="400" font-size="40" letter-spacing="-0.6">If impossible, explain why</text>
+</svg>

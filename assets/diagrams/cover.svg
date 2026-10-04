@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc" fill="#27324b" font-family="Arial, Helvetica, sans-serif" font-weight="400">
+  <title id="title">COVER: sensitive context can trigger refusal of a harmless task</title>
+  <desc id="desc">A harmless question-answering, translation, or summarization task and supplied sensitive context converge on a language model. The model may refuse. This illustrates a possible context-driven over-refusal, whose frequency depends on the task and model, rather than an inevitable outcome.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse">
+      <path d="M 1 1 L 11 6 L 1 11" fill="none" stroke="#27324b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </marker>
+  </defs>
+  <rect width="900" height="600" fill="#e9e4f4" />
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="400">
+    <text x="48" y="83" fill="#27324b" font-size="56">Context-driven refusal</text>
+    <text x="48" y="133" fill="#27324b" font-size="32">A possible outcome of supplied evidence</text>
+
+    <rect x="48" y="184" width="336" height="148" rx="24" fill="#fbf5e8" />
+    <text x="72" y="230" fill="#27324b" font-size="40">Harmless task</text>
+    <text x="72" y="272" fill="#27324b" font-size="32">QA · translation</text>
+    <text x="72" y="310" fill="#27324b" font-size="32">or summary</text>
+
+    <rect x="48" y="384" width="336" height="116" rx="24" fill="#eedbe4" />
+    <text x="72" y="430" fill="#27324b" font-size="40">Sensitive</text>
+    <text x="72" y="475" fill="#27324b" font-size="40">context</text>
+
+    <g fill="none" stroke="#27324b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 384 258 H 417 L 463 342" />
+      <path d="M 384 442 H 417 L 463 342" />
+      <path d="M 463 342 H 501" marker-end="url(#arrow)" />
+      <path d="M 654 342 H 706" marker-end="url(#arrow)" />
+    </g>
+    <circle cx="463" cy="342" r="6" fill="#27324b" />
+
+    <rect x="514" y="283" width="140" height="118" rx="24" fill="#dbe6c4" />
+    <text x="584" y="359" text-anchor="middle" fill="#27324b" font-size="48">LLM</text>
+
+    <rect x="719" y="283" width="133" height="118" rx="24" fill="#eedbe4" />
+    <text x="785.5" y="332" text-anchor="middle" fill="#27324b" font-size="36">May</text>
+    <text x="785.5" y="374" text-anchor="middle" fill="#27324b" font-size="36">refuse</text>
+
+    <text x="48" y="558" fill="#27324b" font-size="32">Refusal varies by task and model.</text>
+  </g>
+</svg>
