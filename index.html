@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Giovanni Sullutrone — PhD researcher studying large language models, refusal, retrieval, and Text-to-SQL. Papers, research, and contact information.">
+  <meta name="description" content="Giovanni Sullutrone — LLM safety researcher studying refusal, over-refusal, clarification and safety evaluation of language models. Papers, code, CV and contact information.">
   <meta name="theme-color" content="#f7f9fc">
-  <title>Giovanni Sullutrone · LLM research</title>
+  <title>Giovanni Sullutrone · LLM safety research</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23e7f649'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='38' text-anchor='middle' fill='%2318191b'%3Eg%3C/text%3E%3C/svg%3E">
   <link rel="preload" href="assets/geist.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
@@ -27,10 +27,10 @@
       <div class="hero-copy">
         <div class="identity-note">
           <img class="portrait" src="assets/portrait.jpg" alt="Giovanni Sullutrone" width="460" height="460">
-          <div><p class="eyebrow">PhD researcher · LLMs</p><p class="affiliation-note">University of Modena and Reggio Emilia</p></div>
+          <div><p class="eyebrow">LLM safety researcher</p><p class="affiliation-note">University of Modena and Reggio Emilia</p></div>
         </div>
-        <p class="personal-line">I do stuff that I like, <em>pretty much.</em></p>
-        <p class="hero-summary">I keep up with papers, get excited, and try to break or find new stuff. Lately, that means studying how language models handle sensitive questions, incomplete information, and the evidence we give them.</p>
+        <p class="personal-line">When should a model refuse, <em>ask or abstain?</em></p>
+        <p class="hero-summary">I build evaluations of how language models handle sensitive requests, incomplete information and the evidence we give them. I am open to research roles in LLM safety, evaluation and interpretability.</p>
         <div class="hero-links"><a class="pill pill-dark" href="#papers">Explore my papers</a><a class="pill" href="mailto:giovanni.sullutrone@unimore.it">Get in touch</a></div>
         <a class="handle" href="https://github.com/giosullutrone">@giosullutrone</a>
       </div>
@@ -59,7 +59,7 @@
         </article>
         <article class="paper-card" id="abiss">
         <a class="paper-cover" href="https://arxiv.org/abs/2607.23340" aria-label="Read ABISS on arXiv"><img src="assets/diagrams/abiss.svg" alt="An ambiguous database question can lead to clarification and SQL; an unanswerable question calls for an explanation." width="900" height="600" loading="lazy" decoding="async"><span class="cover-caption"><span>Interactive Text-to-SQL evaluation</span><span class="pin-badge">Pinned</span></span></a>
-        <div class="paper-content"><div class="paper-meta"><span class="tag">arXiv preprint</span><span>2026</span></div><p class="paper-question">What should an agent ask before it writes SQL?</p><h3><a href="https://arxiv.org/abs/2607.23340">ABISS: Evaluating Text-to-SQL Systems Through Agent Interaction</a></h3><p>A database question may be ambiguous or impossible to answer. ABISS evaluates how agents clarify a question, explain why a request cannot be answered, and turn useful clarification into correct SQL.</p><details><summary>Authors</summary><p>Giovanni Sullutrone, Luca Sala, Sania Aftar, Georgia Koutrika, Sonia Bergamaschi</p></details><div class="paper-links"><a href="https://arxiv.org/abs/2607.23340">Read paper</a><a href="https://github.com/giosullutrone/ABISS-Evaluating-Text-to-SQL-Systems-Through-Agent-Interaction">Code &amp; benchmark</a></div></div>
+        <div class="paper-content"><div class="paper-meta"><span class="tag">arXiv preprint</span><span>2026</span></div><p class="paper-question">What should an agent ask before it writes SQL?</p><h3><a href="https://arxiv.org/abs/2607.23340">ABISS: Evaluating Text-to-SQL Systems Through Agent Interaction</a></h3><p>A database question may be ambiguous or impossible to answer. ABISS evaluates how agents clarify a question, explain why a request cannot be answered, and turn useful clarification into correct SQL.</p><details><summary>Authors</summary><p>Giovanni Sullutrone, Luca Sala, Sania Aftar, Georgia Koutrika, Sonia Bergamaschi</p></details><div class="paper-links"><a href="https://arxiv.org/abs/2607.23340">Read paper</a><a href="https://github.com/giosullutrone/ABISS-Evaluating-Text-to-SQL-Systems-Through-Agent-Interaction">Code (coming soon)</a></div></div>
         </article>
         <article class="paper-card" id="sql-challenges-2026">
           <a class="paper-cover" href="https://data.scitevents.org/Abstract.aspx?idEvent=pUOomaLGDs4%3D" aria-label="View the Text-to-SQL Challenges Revisited abstract"><img src="assets/diagrams/sql-challenges-2026.svg" alt="Text-to-SQL connects accuracy, user interaction, trustworthiness, and economic considerations." width="900" height="600" loading="lazy" decoding="async"><span class="cover-caption">Conversational database systems</span></a>
@@ -98,18 +98,18 @@
     <section id="about" class="about-section" aria-labelledby="about-heading">
       <p class="eyebrow">The person behind the papers</p><h2 id="about-heading">About <em>me</em></h2>
       <p class="big-bio">Discussions with researchers or users—and things I <strong>strongly agree or disagree with</strong> in the literature—spark ideas for my papers.</p>
-      <div class="bio-columns"><p>I’m a PhD researcher in Information and Communication Technologies at the University of Modena and Reggio Emilia, supervised by Prof. Sonia Bergamaschi. My research within the <a class="inline-link" href="https://www.itserr.it/">ITSERR project</a> focuses on how LLM systems behave around safety boundaries, incomplete information, sensitive data, and external evidence.</p><p>I’m particularly interested in whether a refusal is justified, how retrieval changes a model’s decision, and whether an agent recognizes what it needs from a user before acting. I have also worked with Dr. Georgia Koutrika at DARE Lab on Text-to-SQL evaluation.</p></div>
+      <div class="bio-columns"><p>I’m completing a PhD in Information and Communication Technologies at the University of Modena and Reggio Emilia, supervised by Prof. Sonia Bergamaschi. My research within the <a class="inline-link" href="https://www.itserr.it/">ITSERR project</a> focuses on how LLM systems behave around safety boundaries, incomplete information, sensitive data, and external evidence.</p><p>I’m particularly interested in whether a refusal is justified, how retrieval changes a model’s decision, and whether an agent recognizes what it needs from a user before acting. I have also worked with Dr. Georgia Koutrika at DARE Lab on Text-to-SQL evaluation.</p></div>
       <div class="research-tools"><h3>How I work</h3><p>LLM evaluation and benchmarking · Retrieval-augmented generation · Text-to-SQL · Multi-agent data generation and validation · Synthetic data</p><div class="tool-list" aria-label="Research tools"><span>Python</span><span>PyTorch</span><span>Hugging Face</span><span>vLLM</span><span>TRL</span><span>Docker</span><span>SQL</span></div></div>
       <div class="affiliations">
-        <div class="affiliation"><span>PhD · 2023–2026</span><div><h3><a href="https://www.ict.unimore.it/phdStudents.asp?cycle=39">University of Modena<br>and Reggio Emilia</a></h3><p>Information and Communication Technologies · DBGroup<br>Department of Engineering “Enzo Ferrari”<br>Supervisor: Prof. Sonia Bergamaschi<br>Expected completion: 31 October 2026</p></div></div>
+        <div class="affiliation"><span>PhD · 2023–2026</span><div><h3><a href="https://www.ict.unimore.it/phdStudents.asp?cycle=39">University of Modena<br>and Reggio Emilia</a></h3><p>Information and Communication Technologies · DBGroup<br>Department of Engineering “Enzo Ferrari”<br>Supervisor: Prof. Sonia Bergamaschi<br>PhD cycle ends October 2026 · defence expected early 2027</p></div></div>
         <div class="affiliation"><span>Research visit · 2025</span><div><h3><a href="https://darelab.athenarc.gr/people/giosullutrone/">DARE Lab · Athena Research Center</a></h3><p>12 April–12 July 2025 · Athens, Greece<br>Text-to-SQL evaluation with Dr. Georgia Koutrika</p></div></div>
         <div class="affiliation"><span>MSc · 2021–2023</span><div><h3>University of Salerno</h3><p>Computer Engineering · Artificial Intelligence and Intelligent Robotics<br>110/110 cum laude</p></div></div>
         <div class="affiliation"><span>BSc · 2018–2021</span><div><h3>University of Salerno</h3><p>Computer Engineering · 110/110</p></div></div>
         <div class="affiliation"><span>Research grant · 2023</span><div><h3><a href="https://www.aitech.vision/">A.I. Tech S.R.L.</a></h3><p>Fisciano, Italy<br>Machine learning for public transportation monitoring and prediction</p></div></div>
       </div>
     </section>
-    <section id="contact" class="contact-section" aria-labelledby="contact-heading"><p class="eyebrow">Let’s talk research</p><h2 id="contact-heading">Let’s compare <em>notes.</em></h2><a class="contact-email" href="mailto:giovanni.sullutrone@unimore.it">giovanni.sullutrone@<wbr>unimore.it</a><div class="contact-links"><a href="https://github.com/giosullutrone">GitHub</a><a href="https://scholar.google.com/citations?user=S9K-_QoAAAAJ&amp;hl=en">Google Scholar</a><a href="https://huggingface.co/giosullutrone">Hugging Face</a><a href="https://orcid.org/0009-0006-5556-1827">ORCID</a><a href="https://aclanthology.org/people/giovanni-sullutrone/">ACL Anthology</a><a href="https://dblp.org/pid/382/9721">DBLP</a><a href="https://www.linkedin.com/in/giovanni-sullutrone/">LinkedIn</a><a href="https://github.com/giosullutrone/giosullutrone/blob/main/Giovanni%20Sullutrone%20-%20CV%20-%2007-08-26.pdf">CV · August 2026</a></div></section>
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading"><p class="eyebrow">Let’s talk research</p><h2 id="contact-heading">Let’s compare <em>notes.</em></h2><a class="contact-email" href="mailto:giovanni.sullutrone@unimore.it">giovanni.sullutrone@<wbr>unimore.it</a><div class="contact-links"><a href="https://github.com/giosullutrone">GitHub</a><a href="https://scholar.google.com/citations?user=S9K-_QoAAAAJ&amp;hl=en">Google Scholar</a><a href="https://huggingface.co/giosullutrone">Hugging Face</a><a href="https://www.semanticscholar.org/author/2316055843">Semantic Scholar</a><a href="https://orcid.org/0009-0006-5556-1827">ORCID</a><a href="https://aclanthology.org/people/giovanni-sullutrone/">ACL Anthology</a><a href="https://dblp.org/pid/382/9721">DBLP</a><a href="https://www.linkedin.com/in/giovanni-sullutrone/">LinkedIn</a><a href="https://github.com/giosullutrone/giosullutrone/blob/main/Giovanni%20Sullutrone%20-%20CV.pdf">CV · October 2026</a></div></section>
   </main>
-  <footer class="site-footer container"><span>Giovanni Sullutrone</span><span>LLM research · Italy</span><a href="#top">Back to top</a></footer>
+  <footer class="site-footer container"><span>Giovanni Sullutrone</span><span>LLM safety research · Italy · updated October 2026</span><a href="#top">Back to top</a></footer>
 </body>
 </html>
